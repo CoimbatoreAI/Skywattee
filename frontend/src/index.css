@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 200 18% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 18% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 18% 18%;
+
+    --primary: 45 100% 50%;
+    --primary-foreground: 200 18% 18%;
+
+    --secondary: 122 39% 49%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 200 10% 45%;
+
+    --accent: 199 98% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 45 100% 50%;
+
+    --radius: 1rem;
+
+    --gradient-solar: linear-gradient(135deg, hsl(45 100% 50%), hsl(38 100% 60%));
+    --gradient-eco: linear-gradient(135deg, hsl(122 39% 49%), hsl(122 45% 42%));
+    --gradient-sky: linear-gradient(135deg, hsl(199 98% 48%), hsl(204 96% 55%));
+    
+    --shadow-solar: 0 10px 40px -10px hsl(45 100% 50% / 0.3);
+    --shadow-eco: 0 10px 40px -10px hsl(122 39% 49% / 0.3);
+    --shadow-elegant: 0 4px 20px hsl(200 18% 18% / 0.1);
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 200 18% 12%;
+    --foreground: 0 0% 98%;
+
+    --card: 200 18% 15%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 200 18% 15%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 45 100% 55%;
+    --primary-foreground: 200 18% 18%;
+
+    --secondary: 122 39% 45%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 200 18% 20%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 199 98% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 200 18% 25%;
+    --input: 200 18% 25%;
+    --ring: 45 100% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
