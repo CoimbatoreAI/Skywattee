@@ -1,73 +1,38 @@
-# Welcome to your Lovable project
+# Skywatt Electric Energy
 
-## Project info
+Leading solar energy EPC company in Coimbatore since 2011. Specializing in on-grid, off-grid, and hybrid solar systems for residential, commercial, and industrial clients across Tamil Nadu, Kerala, and Karnataka.
 
-**URL**: https://lovable.dev/projects/dccf8c2d-611b-4e99-b447-102cce74bac0
+## Features
 
-## How can I edit this code?
+- **Solar Solutions**: Specialized in Rooftop Installations, Solar Power Parks, Water Pumps, Heating Systems, and Street Lights.
+- **Admin Dashboard**: Secure panel to manage Gallery, Projects, Careers, and Promotional Offers.
+- **Responsive Design**: Built with React, Vite, and Tailwind CSS for a premium user experience.
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Local Development
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dccf8c2d-611b-4e99-b447-102cce74bac0) and start prompting.
+1. **Backend**:
+   ```bash
+   cd backend
+   npm install
+   # Configure .env with MONGODB_URI and JWT_SECRET
+   npm start
+   ```
 
-Changes made via Lovable will be committed automatically to this repo.
+2. **Frontend**:
+   ```bash
+   cd frontend
+   npm install
+   # Configure .env with VITE_API_BASE_URL
+   npm run dev
+   ```
 
-**Use your preferred IDE**
+## Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend**: React, TypeScript, Vite, Tailwind CSS, Shadcn UI, Framer Motion.
+- **Backend**: Node.js, Express, MongoDB, Mongoose, Multer.
+- **Deployment**: PM2, Nginx, VPS.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dccf8c2d-611b-4e99-b447-102cce74bac0) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+© 2024 Skywatt Electric Energy. All rights reserved.
